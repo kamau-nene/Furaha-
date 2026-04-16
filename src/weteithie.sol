@@ -6,7 +6,7 @@ contract WhatIRemember{
 
     modifier onlyOwner() {
         if (msg.sender != owner) {
-            revert "not owner";
+            revert not owner;
             _;
         }
     }

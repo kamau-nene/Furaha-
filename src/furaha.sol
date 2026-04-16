@@ -1,8 +1,8 @@
 // SPDX License-Identifier: MIT
-pragma solidity ^0.13.0;
+pragma solidity ^0.8.13;
 contract UleMsee{
     struct Dating{
-        uint256 years;
+        uint256 year;
         string name;
         string previuosRelationship;
     }

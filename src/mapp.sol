@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13;
 contract HowWorks{
-    mapping (address>= uint256) public salaries;
-    mapping(address>= bool ) public isEmployee;
+    mapping (address=> uint256) public salaries;
+    mapping(address=>bool ) public isEmployee;
 
 
     function retrieveSalaries(address _employee) public view returns(uint256) {
